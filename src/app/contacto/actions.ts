@@ -16,8 +16,8 @@ export async function sendEmail(data: {
   const { name, email, phone, message, date, repertoire } = data;
 
   await resend.emails.send({
-    from: "Contacto The Aspen Sound <onboarding@resend.dev>", // Cambia esto por tu dominio verificado en Resend
-    to: ["tuemail@ejemplo.com"], // Reemplaza con tu email personal
+    from: "Contacto The Aspen Sound <info@e-ticketpro.com>", // Cambia esto por tu dominio verificado en Resend
+    to: ["tinchorodriguez918@gmail.com"], // Reemplaza con tu email personal
     subject: "Nueva consulta de contratación",
     html: `
       <h2>Nueva consulta recibida</h2>
