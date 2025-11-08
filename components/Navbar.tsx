@@ -10,7 +10,7 @@ export default function Navbar() {
 
   const navLinks = [
     { href: "/", label: "Inicio" },
-        { href: "https://e-ticketpro.com/", label: "Próximo Evento" },
+        { href: "https://e-ticketpro.com/event/690f5e691fd3b54d40e68e5e", label: "Próximo Evento" },
 
     { href: "/contacto", label: "Contacto" },
   ];

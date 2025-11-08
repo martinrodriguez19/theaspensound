@@ -18,7 +18,7 @@ export default function Footer() {
             <h4 className="font-bold mb-4 uppercase tracking-wider">Enlaces</h4>
             <ul className="space-y-2 text-gray-400">
               <li><Link href="/" className="hover:text-white transition-colors">Inicio</Link></li>
-              <li><Link href="https://e-ticketpro.com/" className="hover:text-white transition-colors">Próximo Evento</Link></li>
+              <li><Link href="https://e-ticketpro.com/event/690f5e691fd3b54d40e68e5e" className="hover:text-white transition-colors">Próximo Evento</Link></li>
               <li><Link href="/contacto" className="hover:text-white transition-colors">Contacto</Link></li>
             </ul>
           </div>
